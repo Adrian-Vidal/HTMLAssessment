@@ -90,6 +90,7 @@
 		    </ol>
 		  </ul>
 		</div>
+		<div>
 		  <br>
 
 		<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Las_Vegas_Raiders_logo.svg/1280px-Las_Vegas_Raiders_logo.svg.png"
@@ -114,6 +115,61 @@
 		    	<li>Thayer Munford Jr., RT</li>
 		    </ol>
 		  </ul>
+		</div>
+
+		<h1>FORM</h1>
+		<form action="/assesment.html" method="POST">
+			
+			<!-- FIRST AND LAST NAME -->
+			<label for="firstName">First Name:</label> 
+			<input type="text" name="name" id="firstName">
+			<label for="lastName">Last Name:</label>
+			<input type="text" name="name" id="lastName">
+			<br>
+			
+			<!-- DROPDOWN LIST -->
+			<label for="favoriteSport">Favorite Sport:</label><br>
+			<select id="favoriteSport" name="favoriteSport">
+				<option value ="football">Football</option>
+				<option value ="basketball">Basketball</option>
+				<option value ="baseball">Baseball</option>
+				<option value ="hockey">Hockey</option>
+				<option value ="soccer">Soccer</option>
+				<option value ="volleyball">Volleyball</option>
+				<option value ="lacrosse">Lacrosse</option>
+				<option value ="tennis">Tennis</option>
+			</select>
+			
+			<!-- CHECKBOX -->
+			<br>
+			<label for="iHave">I have:</label>
+			  <input id="attended" name="action" type="checkbox" value="attended">
+			  <label for="attended">Attended</label>
+			  <input id="played" name="action" type="checkbox" value="played">
+			  <label for="played">Played</label>
+			  <input id="coached" name="action" type="checkbox" value="coached">
+			  <label for="coached">Coached</label>
+			  <input id="betOn" name="action" type="checkbox" value="betOn">
+			  <label for="betOn">Bet on</label>
+			  <br>
+			 <label for="thisSport">this sport.</label>
+			 <br>
+
+			 <!-- RADIO BUTTON -->
+			 <label for="preference">For this sport, I prefer the:</label>
+			 <input type="radio" id="amateur" name="answer" value="amateur">
+			 <label for="amateur">Amateur</label>
+			 <input type="radio" id="college" name="answer" value="college">
+			 <label for="college">College</label>
+			 <input type="radio" id="professional" name="answer" value="professional">
+			 <label for="professional">Professional</label>
+			 <br>
+
+			 <!-- SUBMIT BUTTON -->
+			 <input type="submit" value="Submit Query">
+			
+
+		</form>
 
 
 </body>
